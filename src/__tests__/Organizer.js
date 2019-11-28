@@ -51,9 +51,9 @@ test('should get full month with prev offset days and next offset days', () => {
   const offsetDays = result.days.filter(day => day.offset);
   expect(result.name).toEqual('September');
   expect(result.month).toEqual(9);
-  expect(result.year).toEqual(2018);
+  expect(result.year).toEqual(2019);
   expect(result.totalDays).toEqual(30);
-  expect(result.totalWeeks).toEqual(6);
+  expect(result.totalWeeks).toEqual(5);
   expect(result.days.length).toEqual(6 + 30 + 6);
   expect(offsetDays.length).toEqual(6 + 6);
 });
