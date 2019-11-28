@@ -3,7 +3,6 @@
   "version": "0.0.8",
   "description": "Organizer is a lightweight, fast and extendable render props component",
   "main": "dist/index",
-  "typings": "dist/index",
   "repository": {
     "type": "git",
     "url": "https://github.com/davidalekna/react-organizer.git"
